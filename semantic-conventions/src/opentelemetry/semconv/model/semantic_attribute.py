@@ -272,6 +272,7 @@ class SemanticAttribute:
             "int[]",
             "double",
             "double[]",
+            "object"
         ):
             if not examples:
                 position = attribute.lc.data[list(attribute)[0]]
@@ -360,6 +361,7 @@ class AttributeType:
             "double[]",
             "boolean",
             "boolean[]",
+            "object"
         )
 
     @staticmethod

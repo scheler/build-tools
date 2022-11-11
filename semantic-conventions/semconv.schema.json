@@ -239,7 +239,8 @@
 								"string[]",
 								"int[]",
 								"double[]",
-								"boolean[]"
+								"boolean[]",
+								"object"
 							],
 							"description": "literal denoting the type"
 						},
